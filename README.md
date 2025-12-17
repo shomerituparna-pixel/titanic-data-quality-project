@@ -1,6 +1,6 @@
-# Titanic Data Quality Analysis Project
-A complete **Data Quality Assessment (DQA) project** built using Python, Google Colab, and the Titanic dataset.  
-This project showcases **data auditing, quality scoring, data cleansing, business rule validation, outlier detection**, and **report generation** in both HTML and PDF formats.
+# Data Quality Analysis Project
+A complete **Data Quality Assessment (DQA) project** built using Python in Google Colab. For the purposes of this project, the dataset I have used is that of a wholesale retailer.
+This project showcases **data auditing, quality scoring, data cleansing, outlier detection**, and **report generation**. It also provides a copy of the clean dataset.
 
 ---
 
@@ -11,20 +11,16 @@ This project showcases **data auditing, quality scoring, data cleansing, busines
 - Duplicate detection  
 - Type consistency checks  
 - Outlier detection using IQR  
-- Data uniqueness metrics  
-- Domain-specific business rule validation  
 
 ### Automated Reports
 - **Professional HTML report**
-- **PDF data quality summary**
 - **Missing Values Report**
-- **Heatmap of missingness**
 - **Top 10 missing column report**
 - **Before vs After data quality comparison**
 
+
 ### Clean Dataset
-You get a ready-to-use, cleaned version of the Titanic dataset:
-``results/cleaned_titanic.csv``.
+You get a ready-to-use, cleaned version of the dataset.
 
 ---
 
@@ -32,8 +28,7 @@ You get a ready-to-use, cleaned version of the Titanic dataset:
 The project computes a unified DQ score using:
 - Missing value penalties  
 - Duplicate row penalties  
-- Outlier penalties  
-- Business rule violations  
+- Outlier penalties   
 - Data type consistency  
 
 A **Before vs After Cleaning** comparison is included.
